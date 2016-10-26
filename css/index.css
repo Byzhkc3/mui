@@ -1,0 +1,71 @@
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+.mvv{
+	background-color: red;
+	height: 226px;
+}
+.mvv1{
+	background-color: yellow;
+}
+.yali_com{
+	max-width: 750px;
+	margin: 0 auto;
+	height: auto;
+}
+header{
+	height: 50px;
+	
+	position: fixed;
+	top: 0px;
+	z-index: 5;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header h4{
+	max-width: 750px;
+	line-height: 50px;
+	text-align: center;
+	background-color:rgba(30,160,219,1) ;
+	margin: 0;
+}
+.wrap-space{
+	margin-top: 50px;;
+}
+.yali-content{
+	background-color: #fff;
+	width: 100%;
+}
+.yali-content ul{
+	margin:18px 18px 0px;
+}
+.yali-content ul li{
+	height: 59px;
+	line-height: 59px;
+	border-bottom: 1px solid #dcdcdc;
+	overflow: hidden;
+	box-sizing:border-box;
+}
+.yali-content ul li:last-child{
+	border-bottom: 0;
+}
+.yali-content:last-child{
+	margin-bottom: 50px;
+}
+footer{
+	/*background-color: yellow;*/
+	height: 50px;
+	position: fixed;
+	bottom: 0px;
+	z-index: 5;
+	width: 100%;
+	margin: 0 auto;
+}
+.sub-btn{
+	/*margin:0 14px;*/
+}

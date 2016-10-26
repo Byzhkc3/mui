@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta name="misapplication-tap-highlight" content="no" />
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="MobileOptimized" content="320" />
+		<title>测试案例</title>
+
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+	</head>
+
+	<body>
+		<div class="yali_com">
+			<header>
+				<h4>测试</h4>
+			</header>
+			<div class="wrap-space">
+				
+			</div>
+			<!--幻灯片-->
+			<div class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!--第一个内容区容器-->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<!-- 具体内容 -->
+						<div class="mvv mvv1">
+							12
+						</div>
+					</div>
+					<div class="mui-slider-item">
+						<!-- 具体内容 -->
+						<div class="mvv">
+							1
+						</div>
+					</div>
+
+					<!--第二个内容区-->
+					<div class="mui-slider-item ">
+						<!-- 具体内容 -->
+						<div class="mvv mvv1">
+							2
+						</div>
+					</div>
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<!-- 具体内容 -->
+						<div class="mvv">
+							11
+						</div>
+					</div>
+				</div>
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+			<!--幻灯片 end-->
+			
+			<div class="yali-content">
+				<ul>
+					<li>1</li>
+					<li>2</li>
+				</ul>
+			</div>
+			
+			<div class="yali-content">
+				<ul>
+					<li>1</li>
+					<li>2</li>
+				</ul>
+			</div>
+		</div>
+
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+			mui(".mui-slider").slider({
+				interval: 4000
+			});
+		</script>
+	</body>
+
+</html>
